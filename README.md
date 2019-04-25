@@ -1,19 +1,24 @@
 # Setting up the development environment
 1.	Ubuntu on Windows (skip if you have an UNIX operating system)
--Enable Windows Subsystem for Linux
--Download Ubuntu from the Microsoft Store
+- Enable Windows Subsystem for Linux
+- Download Ubuntu from the Microsoft Store
 2.	Set up Python3 and pip
--CMD: sudo apt-get install python3 python3-pip
+- CMD: sudo apt-get install python3 python3-pip
 3.	Jupyter, virtualenv and ipykernel
--CMD: pyton3-pip install jupyter virtualenv
--Setting up virtualenv & making it available in jupyter
+- CMD: pyton3-pip install jupyter virtualenv
+- Setting up virtualenv & making it available in jupyter
+
     i.	CMD: Python3 –m virtualenv CartPole
+
     ii.	CMD: source CartPole/bin/activate
+
     iii.	CMD: Pip install ipykernel
+
     iv.	CMD: Python –m ipykernel install --user --name=CartPole
+    
 4.	Set up Jupyter Notebook
--CMD: Jupyter notebook
--Create new Notebook in the pop-up window (see figure 6).
+- CMD: Jupyter notebook
+- Create new Notebook in the pop-up window (see figure 6).
 
 Note: If the window does not show go to localhost:8888 in your browser
 
